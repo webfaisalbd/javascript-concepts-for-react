@@ -1,10 +1,3 @@
-# Javascript Concepts For React
-
-
-###  Fundamentals
-
-```javascript
-
 // 1. how to declare a variable using let and const
 const fatherName = 'S Ahmed';
 let season = 'rainy';
@@ -79,4 +72,9 @@ console.log(student[myAge]);  // access via property name in a variable
 
 
 
-```
+
+
+
+
+
+
