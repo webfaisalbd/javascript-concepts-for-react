@@ -77,6 +77,12 @@ console.log(student[myAge]);  // access via property name in a variable
 
 
 
+```
 
+
+
+### ES6
+
+```javascript
 
 ```
