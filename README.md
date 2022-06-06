@@ -485,3 +485,17 @@ isActive && showUser();
 isActive = !isActive;
 
 ```
+
+
+
+
+
+
+### `Local Storage` `Session Storage`
+
+
+<p align='center'>
+  <img src="./images/localStorage.png" width="500" title="Local Storage">
+  <img src="./images/sessionStorage.png" width="500" title="Session Storage">
+  
+</p>
