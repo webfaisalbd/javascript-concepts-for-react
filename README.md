@@ -499,3 +499,52 @@ isActive = !isActive;
   <img src="./images/sessionStorage.png" width="500" title="Session Storage">
   
 </p>
+
+
+
+
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage</title>
+</head>
+<body>
+    <h2>Local Storage and Session Storage</h2>
+
+    <input type="text" placeholder="Storage id" id="storage-id">
+    <br>
+    <input type="text" placeholder="Storage value" id="storage-value">
+    <br>
+    <button onclick="addToLocalStorage()">Add to Local Storage</button>
+
+    <script src="storage.js"></script>
+
+</body>
+</html>
+```
+
+
+
+
+```javascript
+function addToLocalStorage() {
+    const idInput = document.getElementById('storage-id');
+    const id = idInput.value;
+
+
+    const valueInput = document.getElementById('storage-value');
+    const value = valueInput.value;
+
+    // local storage setItem
+    if (id && value) {
+        localStorage.setItem(id, value);
+    }
+    idInput.value = '';
+    valueInput.value = '';
+
+}
+```
